@@ -57,7 +57,7 @@ The program will open five windows:
 
 ######## FLOWCHART ##########
 
-<img src="https://github.com/" />
+<img src="https://github.com/S4479444/rt1_second_assignment/tree/main/imgs/Flowchart_Second_Assignment.png" />
 
 
 
