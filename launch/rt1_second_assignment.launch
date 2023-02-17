@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+	<param name="frequency" value="2" />
+	
+	<include file="$(find assignment_2_2022)/launch/assignment1.launch" />
+	<node pkg="rt1_second_assignment" type="action_client.py" name="action_client" output="screen"/>
+	<node pkg="rt1_second_assignment" type="custom_msg.py" name="custom_msg" />
+	<node pkg="rt1_second_assignment" type="service_node.py" name="service_node"/>	
+</launch>	
